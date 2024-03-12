@@ -23,6 +23,17 @@ header .logo {
   font-size: 20px;
 }
 
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
 header .presentation {
   margin: 50px 0;
   background: url("./img/bg.jpeg") no-repeat;
